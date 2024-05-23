@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+container {
+    display: inline;
+
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+    margin: 16px 0;
+}
+
+.home ul li {
+    list-style: none;
+    gap: 15px;
+    width: 16px;
+    display: flex;
+    padding-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img2 {
+    width: 130px;
+    cursor: pointer;
+}
+
+.home {
+    padding: 20px;
+}
+
+.heading {
+    list-style: none;
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.heading img {
+    width: 30px;
+}
+
+.button-40 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button-40:hover {
+    background-color: #374151;
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+    .button-40 {
+        padding: .75rem 1.5rem;
+    }
+}
+
+.library {
+    min-height: 150vh;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 12px;
+    background-color: #1a3f63;
+    transition: 1s ease-in-out;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.div1 h3 {
+    padding-left: 5px;
+}
+
+.div1 img {
+    padding-left: 5px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.div1:hover {
+    background-color: rgb(25, 38, 54);
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-top: 12px;
+    background-color: #3f3636;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.div2 h2 {
+    padding-left: 5px;
+}
+
+.div2 img {
+    padding-left: 5px;
+    width: 70px;
+
+}
+
+.div2:hover {
+    background-color: rgb(40, 21, 22);
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    margin-top: 12px;
+    background-color: #475108;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.div3 h2 {
+    padding-left: 5px;
+}
+
+.div3 img {
+    padding-left: 5px;
+    width: 90px;
+
+}
+
+.div3:hover {
+    background-color: rgb(46, 70, 13);
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+}
+
+.footer a {
+    color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+   
+    
+}
+
+.header>* {
+    padding: 25px;
+}
+
+.Artists {
+    padding: 16px;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.Artists .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.Artists .card p {
+    font-size: 15px;
+    color: grey;
+}
+
+.Artists .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Songs {
+    padding: 16px;
+}
+
+.cardContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.Songs .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    width: 150px;
+    background-color: #02040A;
+    cursor: pointer;
+}
+
+.Songs .card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.Songs .card1 p {
+    font-size: 15px;
+    color: grey;
+}
+
+.playlists {
+    padding: 16px;
+}
+
+.cardContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.playlists .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    width: 240px;
+    position: relative;
+    cursor: pointer;
+}
+
+.playlists .card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.playlists .card2 p {
+    font-size: 15px;
+    color: grey;
+}
+
+.play {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.card2:hover .play {
+    opacity: 1;
+}
+
+.card:hover .play {
+    opacity: 1;
+}
+
+.div1:hover .play {
+    opacity: 1;
+}
+
+.div2:hover .play {
+    opacity: 1;
+}
+
+.div3:hover .play {
+    opacity: 1;
+}
+
+.player {
+    top: 5px;
+    height: 40px;
+    width: 380px;
+    height: fit-content;
+    border-radius: 50px;
+   
+}
+
+.header {
+    height: fit-content;
+}
+
+.player .audio {
+    background-color: #101010;
+    width: 100%;
+
+}
+
+.aud {
+    color: #1a3f63;
+}
+
+.trackname h2 {
+    padding-left: 9px;
+    color: #3f6a95;
+}
+
+.player .volumeslider {
+    width: 200px;
+}
+
+.player .buttons .playbutton .pause {
+    display: none;
+}
+
+.player .buttons .mutebutton .mute {
+    display: none;
+}
